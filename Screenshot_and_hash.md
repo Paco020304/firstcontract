@@ -16,18 +16,20 @@
 
 Remix 中通过 WalletConnect 连接钱包，将 `Counter.sol` 部署到 Sepolia：
 
-<img width="1356" height="1179" alt="Remix 部署与调用截图" src="https://github.com/user-attachments/assets/e3052f60-a560-4c2a-a9a8-b349e1b543b7" />
+<img width="1223" height="1163" alt="image" src="https://github.com/user-attachments/assets/049f2687-4032-4639-91b3-4509ff29fc6b" />
 
 钱包中的部署交易：
 
-<img width="561" height="272" alt="部署合约截图" src="https://github.com/user-attachments/assets/d8a65f6d-4f77-4030-a114-112bff078bcf" />
+<img width="548" height="310" alt="image" src="https://github.com/user-attachments/assets/00491911-6fd3-46db-bbc8-50f42d6d8bec" />
 
-部署交易 Hash：[`0xf1c8170d13412acfb1f5edd7dfbcb01f280da41449dfb8fdeb294d3774ba8278`](https://sepolia.etherscan.io/tx/0xf1c8170d13412acfb1f5edd7dfbcb01f280da41449dfb8fdeb294d3774ba8278)
+部署交易 Hash：[`0xdc6241704a8f0568f673c711897f140e680946de12d26d61fe6f6ed74036191d`](https://sepolia.etherscan.io/tx/0xdc6241704a8f0568f673c711897f140e680946de12d26d61fe6f6ed74036191d)
 
 ## 3. 调用 add(x) 方法
 
-调用 `add(5)`，之后调用 `count` 返回 `5`（见上方 Remix 截图）。
+调用 `add(3)`，之后调用 `count` 返回 `8`。
 
-<img width="567" height="282" alt="调用 add 截图" src="https://github.com/user-attachments/assets/4f4806b6-d4f6-4fb3-8519-8b27355ac6e2" />
+<img width="1265" height="1199" alt="image" src="https://github.com/user-attachments/assets/f9a3e68c-b6ea-47be-bdd4-699499f1ee0a" />
 
-交易 Hash：[`0x15dd3c3a4c1907d4530a352fe4038e950d8a9c622736054d2190d6f86a7ccb3a`](https://sepolia.etherscan.io/tx/0x15dd3c3a4c1907d4530a352fe4038e950d8a9c622736054d2190d6f86a7ccb3a)
+<img width="562" height="317" alt="image" src="https://github.com/user-attachments/assets/68f46862-f925-4150-8287-a6c3bafbfcd1" />
+
+交易 Hash：[`0x09def1eba2ee223eb67d6720205fc4e7990be261294752c4dffc74212da7e928`](https://sepolia.etherscan.io/tx/0x09def1eba2ee223eb67d6720205fc4e7990be261294752c4dffc74212da7e928)

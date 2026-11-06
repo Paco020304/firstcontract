@@ -15,7 +15,7 @@
 1. 安装 MetaMask 钱包，创建账号，从水龙头领取 Sepolia 测试币
 2. 向任意地址转一笔账，熟悉交易流程
 3. 在 Remix 里编写并编译 `Counter.sol`，通过 WalletConnect 连接钱包，部署到 Sepolia
-4. 调用 `add(x)`，再用 `get()` 读出结果
+4. 调用 `add(3)`，再用 `get()` 读出结果 `3`
 
 ## 文件说明
 

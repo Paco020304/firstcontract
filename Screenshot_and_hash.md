@@ -42,6 +42,10 @@ Remix 中通过 WalletConnect 连接钱包，将 `Counter.sol` 部署到 Sepolia
 
 <img width="1433" height="1202" alt="调用 add(3) 后 counter 为 3" src="images/step3_remix_after_add.png" />
 
+调用 `get()` 读出 `counter` 的值，返回 `3`：
+
+<img width="1314" height="1186" alt="调用 get() 返回 3" src="images/step3_remix_get.png" />
+
 钱包中的 `add(3)` 交易（交易 ID `0x59d4d…d4a51`）：
 
 <img width="562" height="310" alt="钱包 add 交易" src="images/step3_wallet_add_tx.png" />

@@ -2,18 +2,15 @@
 pragma solidity ^0.8.0;
 
 contract Counter {
-    uint256 public count;
+    uint256 public counter;
 
-    function increment() public {
-        count += 1;
+    // Return the current counter value
+    function get() public view returns (uint256) {
+        return counter;
     }
 
-    function decrement() public {
-        require(count > 0, "Counter is already zero");
-        count -= 1;
-    }
-
+    // Add x to the counter
     function add(uint256 x) public {
-        count += x;
+        counter += x;
     }
 }

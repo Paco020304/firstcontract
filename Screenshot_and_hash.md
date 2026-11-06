@@ -24,7 +24,7 @@
 
 Remix 中通过 WalletConnect 连接钱包，将 `Counter.sol` 部署到 Sepolia，新合约出现在 Deployed Contracts 中（`0x6B6…641Bc`）：
 
-<img width="1223" height="1163" alt="Remix 部署合约" src="https://github.com/user-attachments/assets/049f2687-4032-4639-91b3-4509ff29fc6b" />
+<img width="1449" height="1169" alt="部署合约" src="https://github.com/user-attachments/assets/aa458d82-34a1-48f9-8e4b-55780b85ef09" />
 
 钱包中的部署交易（交易 ID `0xdc624…6191d`）：
 
